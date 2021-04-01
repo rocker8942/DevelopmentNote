@@ -1,0 +1,12 @@
+Sammple code: https://github.com/jonathanfmills/WorkingWithModules
+
+This enables module in JS.
+<script src="js/app.js" type="module"></script>
+
+export {name, name2}
+import {name, name2} OR * as repoName from '/path/file.js'
+
+reference: What to use among many module system in Javascript (2017)
+https://medium.com/computed-comparisons/commonjs-vs-amd-vs-requirejs-vs-es6-modules-2e814b114a0b#:~:text=The%20major%20difference%20arises%20in,uses%20just%20the%20exports%20variable.&text=The%20cons%20are%20just%20one,these%20modules%20directly%20without%20transpiling.
+In short, 'If you are looking at starting a new module or project, ES2015 is the right way to go and CommonJS/Node remains the choice for the server.'
+
